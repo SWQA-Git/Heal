@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry including="**/*.java" kind="src" output="target/classes" path="src">
+		<attributes>
+			<attribute name="optional" value="true"/>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="con" path="org.testng.TESTNG_CONTAINER"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.USER_LIBRARY/log4j 2"/>
+	<classpathentry kind="con" path="org.eclipse.m2e.MAVEN2_CLASSPATH_CONTAINER">
+		<attributes>
+			<attribute name="maven.pomderived" value="true"/>
+		</attributes>
+	</classpathentry>
+	<classpathentry kind="lib" path="D:/JavaWorkSpace/Heal/lib/guice-3.0.jar"/>
+	<classpathentry kind="lib" path="D:/JavaWorkSpace/Heal/lib/jxl-2.6.jar"/>
+	<classpathentry kind="lib" path="D:/JavaWorkSpace/Heal/lib/log4j-api-2.8.1.jar"/>
+	<classpathentry kind="lib" path="D:/JavaWorkSpace/Heal/lib/log4j-core-2.8.1.jar"/>
+	<classpathentry kind="lib" path="D:/JavaWorkSpace/Heal/lib/reportng-1.1.4.jar"/>
+	<classpathentry kind="lib" path="D:/JavaWorkSpace/Heal/lib/selenium-server-standalone-3.3.1.jar"/>
+	<classpathentry kind="lib" path="D:/JavaWorkSpace/Heal/lib/velocity-dep-1.4.jar"/>
+	<classpathentry kind="lib" path="D:/JavaWorkSpace/Heal/lib/sauce_testng-2.1.23.jar"/>
+	<classpathentry kind="lib" path="D:/JavaWorkSpace/Heal/lib/saucerest-1.0.35.jar" sourcepath="D:/JavaWorkSpace/Heal/lib/saucerest-1.0.35-sources.jar"/>
+	<classpathentry kind="lib" path="D:/JavaWorkSpace/Heal/lib/json-20140107.jar"/>
+	<classpathentry kind="lib" path="D:/JavaWorkSpace/Heal/lib/json-simple.jar"/>
+	<classpathentry kind="output" path="target/classes"/>
+</classpath>

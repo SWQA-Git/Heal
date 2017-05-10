@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 1 failed test</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-HEAL_PATIENT">
+              <span class="suite-name border-failed">HEAL_PATIENT</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-HEAL_PATIENT">
+                    <span>D:\JavaWorkSpace\Heal\testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-HEAL_PATIENT">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-HEAL_PATIENT">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-HEAL_PATIENT">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-HEAL_PATIENT">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-HEAL_PATIENT">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-HEAL_PATIENT">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">7 methods, 1 failed,  1 skipped,  5 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-HEAL_PATIENT" class="hide-methods failed suite-HEAL_PATIENT"> (hide)</a> <!-- hide-methods failed suite-HEAL_PATIENT -->
+                      <a href="#" panel-name="suite-HEAL_PATIENT" class="show-methods failed suite-HEAL_PATIENT"> (show)</a> <!-- show-methods failed suite-HEAL_PATIENT -->
+                    </span>
+                    <div class="method-list-content failed suite-HEAL_PATIENT">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HEAL_PATIENT" title="test.patient.LoginTest" hash-for-method="testNormsAndConditionsLink">testNormsAndConditionsLink</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-HEAL_PATIENT -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-HEAL_PATIENT" class="hide-methods skipped suite-HEAL_PATIENT"> (hide)</a> <!-- hide-methods skipped suite-HEAL_PATIENT -->
+                      <a href="#" panel-name="suite-HEAL_PATIENT" class="show-methods skipped suite-HEAL_PATIENT"> (show)</a> <!-- show-methods skipped suite-HEAL_PATIENT -->
+                    </span>
+                    <div class="method-list-content skipped suite-HEAL_PATIENT">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HEAL_PATIENT" title="test.patient.LoginTest" hash-for-method="testloginWithValidCredentails">testloginWithValidCredentails</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-HEAL_PATIENT -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-HEAL_PATIENT" class="hide-methods passed suite-HEAL_PATIENT"> (hide)</a> <!-- hide-methods passed suite-HEAL_PATIENT -->
+                      <a href="#" panel-name="suite-HEAL_PATIENT" class="show-methods passed suite-HEAL_PATIENT"> (show)</a> <!-- show-methods passed suite-HEAL_PATIENT -->
+                    </span>
+                    <div class="method-list-content passed suite-HEAL_PATIENT">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HEAL_PATIENT" title="test.patient.LoginTest" hash-for-method="testElementsOfLoginPage">testElementsOfLoginPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HEAL_PATIENT" title="test.patient.LoginTest" hash-for-method="testLogInFormWithBlankData">testLogInFormWithBlankData</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HEAL_PATIENT" title="test.patient.LoginTest" hash-for-method="testRegisterLinkFlow">testRegisterLinkFlow</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HEAL_PATIENT" title="test.patient.LoginTest" hash-for-method="testSecurityCheckRedirectToLoginPage">testSecurityCheckRedirectToLoginPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-HEAL_PATIENT" title="test.patient.LoginTest" hash-for-method="testValidationOfLoginForm">testValidationOfLoginForm</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-HEAL_PATIENT -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-HEAL_PATIENT" class="panel HEAL_PATIENT">
+          <div class="suite-HEAL_PATIENT-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">test.patient.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testNormsAndConditionsLink">
+                  </a> <!-- testNormsAndConditionsLink -->
+                  <span class="method-name">testNormsAndConditionsLink</span>
+                  <div class="stack-trace">java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.fail(Assert.java:95)
+	at lib.common.TestBase.failTest(TestBase.java:51)
+	at test.patient.LoginTest.testNormsAndConditionsLink(LoginTest.java:260)
+... Removed 25 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HEAL_PATIENT-class-failed -->
+          <div class="suite-HEAL_PATIENT-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">test.patient.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testloginWithValidCredentails">
+                  </a> <!-- testloginWithValidCredentails -->
+                  <span class="method-name">testloginWithValidCredentails</span>
+                  <div class="stack-trace">org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.
+Build info: version: &apos;3.3.1&apos;, revision: &apos;5234b32&apos;, time: &apos;2017-03-10 09:04:52 -0800&apos;
+System info: host: &apos;MAYUR&apos;, ip: &apos;169.254.224.252&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;
+Driver info: driver.version: TestDriver
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:625)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:244)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:158)
+	at lib.common.TestDriver.initializeAndGetSessionID(TestDriver.java:133)
+	at lib.common.TestDriver.&lt;init&gt;(TestDriver.java:61)
+	at lib.common.TestDriver.getNewInstance(TestDriver.java:67)
+	at lib.common.TestBase.initializeDriver(TestBase.java:30)
+	at test.patient.LoginTest.SetUp(LoginTest.java:41)
+Caused by: java.net.UnknownHostException: ondemand.saucelabs.com
+	at java.net.InetAddress.getAllByName0(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at java.net.InetAddress.getAllByName(Unknown Source)
+	at org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)
+	at org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:111)
+	at org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)
+	at org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)
+	at org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)
+	at org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)
+	at org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)
+	at org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)
+	at org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)
+	at org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:142)
+	at org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:88)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:296)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:113)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:141)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)
+	... 35 more
+... Removed 27 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HEAL_PATIENT-class-skipped -->
+          <div class="suite-HEAL_PATIENT-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">test.patient.LoginTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="testElementsOfLoginPage">
+                  </a> <!-- testElementsOfLoginPage -->
+                  <span class="method-name">testElementsOfLoginPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testLogInFormWithBlankData">
+                  </a> <!-- testLogInFormWithBlankData -->
+                  <span class="method-name">testLogInFormWithBlankData</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testRegisterLinkFlow">
+                  </a> <!-- testRegisterLinkFlow -->
+                  <span class="method-name">testRegisterLinkFlow</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testSecurityCheckRedirectToLoginPage">
+                  </a> <!-- testSecurityCheckRedirectToLoginPage -->
+                  <span class="method-name">testSecurityCheckRedirectToLoginPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="testValidationOfLoginForm">
+                  </a> <!-- testValidationOfLoginForm -->
+                  <span class="method-name">testValidationOfLoginForm</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-HEAL_PATIENT-class-passed -->
+        </div> <!-- panel HEAL_PATIENT -->
+        <div panel-name="test-xml-HEAL_PATIENT" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\JavaWorkSpace\Heal\testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite guice-stage=&quot;DEVELOPMENT&quot; name=&quot;HEAL_PATIENT&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.HTMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;org.uncommons.reportng.JUnitXMLReporter&quot;/&gt;
+    &lt;listener class-name=&quot;lib.common.CustomListener&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test name=&quot;Test&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;test.patient.LoginTest&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;testSecurityCheckRedirectToLoginPage&quot;/&gt;
+          &lt;include name=&quot;testElementsOfLoginPage&quot;/&gt;
+          &lt;include name=&quot;testRegisterLinkFlow&quot;/&gt;
+          &lt;include name=&quot;testLogInFormWithBlankData&quot;/&gt;
+          &lt;include name=&quot;testValidationOfLoginForm&quot;/&gt;
+          &lt;include name=&quot;testNormsAndConditionsLink&quot;/&gt;
+          &lt;include name=&quot;testloginWithValidCredentails&quot;/&gt;
+          &lt;exclude name=&quot;testBrowserbackButtonFlow&quot;/&gt;
+          &lt;exclude name=&quot;testSecurityWithInvalidURL&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- test.patient.LoginTest --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Test --&gt;
+&lt;/suite&gt; &lt;!-- HEAL_PATIENT --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-HEAL_PATIENT" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for HEAL_PATIENT</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-HEAL_PATIENT" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for HEAL_PATIENT</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-HEAL_PATIENT" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for HEAL_PATIENT</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_HEAL_PATIENT');
+function tableData_HEAL_PATIENT() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(7);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'testElementsOfLoginPage')
+data.setCell(0, 2, 'test.patient.LoginTest')
+data.setCell(0, 3, 132654);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'testNormsAndConditionsLink')
+data.setCell(1, 2, 'test.patient.LoginTest')
+data.setCell(1, 3, 76277);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'testLogInFormWithBlankData')
+data.setCell(2, 2, 'test.patient.LoginTest')
+data.setCell(2, 3, 62709);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'testValidationOfLoginForm')
+data.setCell(3, 2, 'test.patient.LoginTest')
+data.setCell(3, 3, 57785);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'testSecurityCheckRedirectToLoginPage')
+data.setCell(4, 2, 'test.patient.LoginTest')
+data.setCell(4, 3, 7331);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'testRegisterLinkFlow')
+data.setCell(5, 2, 'test.patient.LoginTest')
+data.setCell(5, 3, 6374);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'testloginWithValidCredentails')
+data.setCell(6, 2, 'test.patient.LoginTest')
+data.setCell(6, 3, 0);
+window.suiteTableData['HEAL_PATIENT']= { tableData: data, tableDiv: 'times-div-HEAL_PATIENT'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 5 minutes</span>
+              <div id="times-div-HEAL_PATIENT">
+              </div> <!-- times-div-HEAL_PATIENT -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-HEAL_PATIENT" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for HEAL_PATIENT</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-HEAL_PATIENT" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">2 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="ignored-class-div">
+              <span class="ignored-class-name">test.patient.LoginTest</span>
+              <div class="ignored-methods-div">
+                <span class="ignored-method-name">testBrowserbackButtonFlow</span>
+                <br/>
+                <span class="ignored-method-name">testSecurityWithInvalidURL</span>
+                <br/>
+              </div> <!-- ignored-methods-div -->
+            </div> <!-- ignored-class-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-HEAL_PATIENT" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">test.patient.LoginTest</div> <!-- chronological-class-name -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testSecurityCheckRedirectToLoginPage</span>
+                <span class="method-start">16357 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">23690 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">24073 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testElementsOfLoginPage</span>
+                <span class="method-start">30683 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">163339 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">163753 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testRegisterLinkFlow</span>
+                <span class="method-start">170470 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">176846 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">177291 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testLogInFormWithBlankData</span>
+                <span class="method-start">184282 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">246994 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">247381 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">testValidationOfLoginForm</span>
+                <span class="method-start">253967 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">311754 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">SetUp</span>
+                <span class="method-start">312190 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">testNormsAndConditionsLink</span>
+                <span class="method-start">320174 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDown</span>
+                <span class="method-start">396459 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">SetUp</span>
+                <span class="method-start">396470 ms</span>
+              </div> <!-- configuration-method before -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>

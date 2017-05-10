@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Configuration>
+	<Appenders>
+
+		<File name="FileLogger" fileName="Heal.log" append="false">
+			<PatternLayout pattern="%d %t %-5p %c{2} - %m%n" />
+		</File>
+
+		<Console name="Console" target="SYSTEM_OUT">
+			<PatternLayout
+				pattern="[%-5level] %d{yyyy-MM-dd HH:mm:ss.SSS} [%t] %c{1} - %msg%n" />
+		</Console>
+	</Appenders>
+
+	<Loggers>
+		<Logger name="lib/common" level="All" additivity="false">
+			<AppenderRef ref="FileLogger" />
+		</Logger>
+		<Logger name="lib/patinet" level="All">
+			<AppenderRef ref="FileLogger" />
+		</Logger>
+		<Logger name="test/patinet" level="All">
+			<AppenderRef ref="FileLogger" />
+		</Logger>
+		<Logger name="verification/patinet" level="All">
+			<AppenderRef ref="FileLogger" />
+		</Logger>
+		<Logger name="verification/replay" level="All">
+			<AppenderRef ref="FileLogger" />
+		</Logger>
+
+		<Root level="All">
+
+			<AppenderRef ref="FileLogger" />
+		</Root>
+	</Loggers>
+</Configuration>

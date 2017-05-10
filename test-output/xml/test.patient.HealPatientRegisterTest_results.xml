@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Heal-Patient-Register-Test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="39.266">
+  <properties />
+  
+  
+            <testcase name="registerWithValidData" time="39.266" classname="test.patient.HealPatientRegisterTest" />
+      
+</testsuite>

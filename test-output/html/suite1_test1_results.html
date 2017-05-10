@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
+        "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="" lang="">
+<head>
+  <title>Test Results Report - Test</title>
+  <meta http-equiv="Content-Type" content="text/html;charset=utf-8" />
+  <meta name="description" content="TestNG unit test results." />
+  <link href="reportng.css" rel="stylesheet" type="text/css" />
+    <script type="text/javascript" src="reportng.js"></script>
+</head>
+<body>
+<h1>Test</h1>
+<p>
+  Test duration: 396.594s
+</p>
+
+  <table class="resultsTable configTable">
+    <tr><th colspan="3" class="header failedConfig">Failed Configuration</th></tr>
+              <tr class="group">
+        <td colspan="3">test.patient.LoginTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  SetUp
+      </td>
+  <td class="duration">
+    0.151s
+  </td>
+  <td class="result">
+        
+    
+        
+
+        <a href="javascript:toggleElement('exception-0', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.remote.UnreachableBrowserException: Could not start a new session. Possible causes are invalid address of the remote server or browser start-up failure.<br/>
+Build info: version: &apos;3.3.1&apos;, revision: &apos;5234b32&apos;, time: &apos;2017-03-10 09:04:52 -0800&apos;<br/>
+System info: host: &apos;MAYUR&apos;, ip: &apos;169.254.224.252&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;<br/>
+Driver info: driver.version: TestDriver</b></a><br />
+    <div class="stackTrace" id="exception-0">
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:625)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:244)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:158)<br />
+              lib.common.TestDriver.initializeAndGetSessionID(TestDriver.java:133)<br />
+              lib.common.TestDriver.&lt;init&gt;(TestDriver.java:61)<br />
+              lib.common.TestDriver.getNewInstance(TestDriver.java:67)<br />
+              lib.common.TestBase.initializeDriver(TestBase.java:30)<br />
+              test.patient.LoginTest.SetUp(LoginTest.java:41)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)<br />
+              org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)<br />
+              org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:599)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:744)<br />
+              org.testng.TestRunner.run(TestRunner.java:602)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:380)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:289)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1226)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1144)<br />
+              org.testng.TestNG.run(TestNG.java:1115)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)<br />
+                    <b>Caused by: </b> <a href="javascript:toggleElement('exception-1', 'block')" title="Click to expand/collapse">java.net.UnknownHostException: ondemand.saucelabs.com</a><br />
+        <div class="stackTrace" id="exception-1">
+                      java.net.InetAddress.getAllByName0(Unknown Source)<br />
+                      java.net.InetAddress.getAllByName(Unknown Source)<br />
+                      java.net.InetAddress.getAllByName(Unknown Source)<br />
+                      org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)<br />
+                      org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:111)<br />
+                      org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)<br />
+                      org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)<br />
+                      org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)<br />
+                      org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)<br />
+                      org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)<br />
+                      org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)<br />
+                      org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)<br />
+                      org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)<br />
+                      org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)<br />
+                      org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:142)<br />
+                      org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:88)<br />
+                      org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:296)<br />
+                      org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:113)<br />
+                      org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:141)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:244)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:158)<br />
+                      lib.common.TestDriver.initializeAndGetSessionID(TestDriver.java:133)<br />
+                      lib.common.TestDriver.&lt;init&gt;(TestDriver.java:61)<br />
+                      lib.common.TestDriver.getNewInstance(TestDriver.java:67)<br />
+                      lib.common.TestBase.initializeDriver(TestBase.java:30)<br />
+                      test.patient.LoginTest.SetUp(LoginTest.java:41)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+                      sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+                      java.lang.reflect.Method.invoke(Unknown Source)<br />
+                      org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)<br />
+                      org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)<br />
+                      org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)<br />
+                      org.testng.internal.Invoker.invokeMethod(Invoker.java:599)<br />
+                      org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)<br />
+                      org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)<br />
+                      org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)<br />
+                      org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+                      org.testng.TestRunner.privateRun(TestRunner.java:744)<br />
+                      org.testng.TestRunner.run(TestRunner.java:602)<br />
+                      org.testng.SuiteRunner.runTest(SuiteRunner.java:380)<br />
+                      org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)<br />
+                      org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)<br />
+                      org.testng.SuiteRunner.run(SuiteRunner.java:289)<br />
+                      org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+                      org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+                      org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)<br />
+                      org.testng.TestNG.runSuitesLocally(TestNG.java:1226)<br />
+                      org.testng.TestNG.runSuites(TestNG.java:1144)<br />
+                      org.testng.TestNG.run(TestNG.java:1115)<br />
+                      org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)<br />
+                      org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)<br />
+                      org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)<br />
+                  </div>
+          </div>
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  tearDown
+      </td>
+  <td class="duration">
+    0.004s
+  </td>
+  <td class="result">
+        
+    
+        
+
+        <a href="javascript:toggleElement('exception-2', 'block')" title="Click to expand/collapse"><b>org.openqa.selenium.remote.UnreachableBrowserException: Error communicating with the remote browser. It may have died.<br/>
+Build info: version: &apos;3.3.1&apos;, revision: &apos;5234b32&apos;, time: &apos;2017-03-10 09:04:52 -0800&apos;<br/>
+System info: host: &apos;MAYUR&apos;, ip: &apos;169.254.224.252&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;x86&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_121&apos;<br/>
+Driver info: driver.version: TestDriver<br/>
+Capabilities [{applicationCacheEnabled=false, rotatable=false, networkConnectionEnabled=false, mobileEmulationEnabled=false, chrome={chromedriverVersion=2.28.455520 (cc17746adff54984afff480136733114c6b3704b), userDataDir=C:\Users\ADMINI~1\AppData\Local\Temp\scoped_dir2440_15608}, takesHeapSnapshot=true, pageLoadStrategy=normal, hasMetadata=true, hasTouchScreen=false, handlesAlerts=true, databaseEnabled=false, version=56.0.2924.76, platform=XP, browserConnectionEnabled=false, nativeEvents=true, acceptSslCerts=true, webdriver.remote.sessionid=7563a0d7dc5f438bb754a87df1ab9227, locationContextEnabled=true, webStorageEnabled=true, takesScreenshot=true, browserName=chrome, javascriptEnabled=true, cssSelectorsEnabled=true, unexpectedAlertBehaviour=}]<br/>
+Session ID: 7563a0d7dc5f438bb754a87df1ab9227</b></a><br />
+    <div class="stackTrace" id="exception-2">
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:625)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:661)<br />
+              org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:500)<br />
+              lib.common.TestDriver.closeBrowser(TestDriver.java:178)<br />
+              lib.common.TestBase.closeBrowser(TestBase.java:35)<br />
+              test.patient.LoginTest.tearDown(LoginTest.java:48)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)<br />
+              org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)<br />
+              org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:723)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:744)<br />
+              org.testng.TestRunner.run(TestRunner.java:602)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:380)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:289)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1226)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1144)<br />
+              org.testng.TestNG.run(TestNG.java:1115)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)<br />
+                    <b>Caused by: </b> <a href="javascript:toggleElement('exception-3', 'block')" title="Click to expand/collapse">java.net.UnknownHostException: ondemand.saucelabs.com</a><br />
+        <div class="stackTrace" id="exception-3">
+                      java.net.Inet6AddressImpl.lookupAllHostAddr(Native Method)<br />
+                      java.net.InetAddress$2.lookupAllHostAddr(Unknown Source)<br />
+                      java.net.InetAddress.getAddressesFromNameService(Unknown Source)<br />
+                      java.net.InetAddress.getAllByName0(Unknown Source)<br />
+                      java.net.InetAddress.getAllByName(Unknown Source)<br />
+                      java.net.InetAddress.getAllByName(Unknown Source)<br />
+                      org.apache.http.impl.conn.SystemDefaultDnsResolver.resolve(SystemDefaultDnsResolver.java:45)<br />
+                      org.apache.http.impl.conn.DefaultHttpClientConnectionOperator.connect(DefaultHttpClientConnectionOperator.java:111)<br />
+                      org.apache.http.impl.conn.PoolingHttpClientConnectionManager.connect(PoolingHttpClientConnectionManager.java:353)<br />
+                      org.apache.http.impl.execchain.MainClientExec.establishRoute(MainClientExec.java:380)<br />
+                      org.apache.http.impl.execchain.MainClientExec.execute(MainClientExec.java:236)<br />
+                      org.apache.http.impl.execchain.ProtocolExec.execute(ProtocolExec.java:184)<br />
+                      org.apache.http.impl.execchain.RetryExec.execute(RetryExec.java:88)<br />
+                      org.apache.http.impl.execchain.RedirectExec.execute(RedirectExec.java:110)<br />
+                      org.apache.http.impl.client.InternalHttpClient.doExecute(InternalHttpClient.java:184)<br />
+                      org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:71)<br />
+                      org.apache.http.impl.client.CloseableHttpClient.execute(CloseableHttpClient.java:55)<br />
+                      org.openqa.selenium.remote.internal.ApacheHttpClient.fallBackExecute(ApacheHttpClient.java:142)<br />
+                      org.openqa.selenium.remote.internal.ApacheHttpClient.execute(ApacheHttpClient.java:88)<br />
+                      org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:160)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:604)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:661)<br />
+                      org.openqa.selenium.remote.RemoteWebDriver.quit(RemoteWebDriver.java:500)<br />
+                      lib.common.TestDriver.closeBrowser(TestDriver.java:178)<br />
+                      lib.common.TestBase.closeBrowser(TestBase.java:35)<br />
+                      test.patient.LoginTest.tearDown(LoginTest.java:48)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+                      sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+                      sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+                      java.lang.reflect.Method.invoke(Unknown Source)<br />
+                      org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)<br />
+                      org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:523)<br />
+                      org.testng.internal.Invoker.invokeConfigurations(Invoker.java:224)<br />
+                      org.testng.internal.Invoker.invokeMethod(Invoker.java:723)<br />
+                      org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)<br />
+                      org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)<br />
+                      org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)<br />
+                      org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+                      org.testng.TestRunner.privateRun(TestRunner.java:744)<br />
+                      org.testng.TestRunner.run(TestRunner.java:602)<br />
+                      org.testng.SuiteRunner.runTest(SuiteRunner.java:380)<br />
+                      org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)<br />
+                      org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)<br />
+                      org.testng.SuiteRunner.run(SuiteRunner.java:289)<br />
+                      org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+                      org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+                      org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)<br />
+                      org.testng.TestNG.runSuitesLocally(TestNG.java:1226)<br />
+                      org.testng.TestNG.runSuites(TestNG.java:1144)<br />
+                      org.testng.TestNG.run(TestNG.java:1115)<br />
+                      org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)<br />
+                      org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)<br />
+                      org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)<br />
+                  </div>
+          </div>
+      </td>
+</tr>
+    
+      </table>
+
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header failed">Failed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">test.patient.LoginTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  testNormsAndConditionsLink
+      </td>
+  <td class="duration">
+    76.277s
+  </td>
+  <td class="result">
+        
+    
+        
+
+        <a href="javascript:toggleElement('exception-4', 'block')" title="Click to expand/collapse"><b>java.lang.AssertionError</b></a><br />
+    <div class="stackTrace" id="exception-4">
+              org.junit.Assert.fail(Assert.java:86)<br />
+              org.junit.Assert.fail(Assert.java:95)<br />
+              lib.common.TestBase.failTest(TestBase.java:51)<br />
+              test.patient.LoginTest.testNormsAndConditionsLink(LoginTest.java:260)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)<br />
+              sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)<br />
+              sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)<br />
+              java.lang.reflect.Method.invoke(Unknown Source)<br />
+              org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)<br />
+              org.testng.internal.Invoker.invokeMethod(Invoker.java:661)<br />
+              org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)<br />
+              org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)<br />
+              org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)<br />
+              org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)<br />
+              org.testng.TestRunner.privateRun(TestRunner.java:744)<br />
+              org.testng.TestRunner.run(TestRunner.java:602)<br />
+              org.testng.SuiteRunner.runTest(SuiteRunner.java:380)<br />
+              org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)<br />
+              org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)<br />
+              org.testng.SuiteRunner.run(SuiteRunner.java:289)<br />
+              org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)<br />
+              org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)<br />
+              org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)<br />
+              org.testng.TestNG.runSuitesLocally(TestNG.java:1226)<br />
+              org.testng.TestNG.runSuites(TestNG.java:1144)<br />
+              org.testng.TestNG.run(TestNG.java:1115)<br />
+              org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)<br />
+              org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)<br />
+              org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)<br />
+                </div>
+      </td>
+</tr>
+      </table>
+
+  <table class="resultsTable" width="100%">
+    <tr><th colspan="3" class="header skipped">Skipped Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">test.patient.LoginTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  testloginWithValidCredentails
+      </td>
+  <td class="duration">
+    0.000s
+  </td>
+  <td class="result">
+                               
+    
+        
+
+      </td>
+</tr>
+      </table>
+
+  <table class="resultsTable">
+    <tr><th colspan="3" class="header passed">Passed Tests</th></tr>
+          <tr>
+        <td colspan="3" class="group">test.patient.LoginTest</td>
+      </tr>
+            
+<tr>
+  <td class="method">
+                  testElementsOfLoginPage
+      </td>
+  <td class="duration">
+    132.654s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  testLogInFormWithBlankData
+      </td>
+  <td class="duration">
+    62.709s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  testRegisterLinkFlow
+      </td>
+  <td class="duration">
+    6.374s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  testSecurityCheckRedirectToLoginPage
+      </td>
+  <td class="duration">
+    7.331s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+<tr>
+  <td class="method">
+                  testValidationOfLoginForm
+      </td>
+  <td class="duration">
+    57.785s
+  </td>
+  <td class="result">
+        
+    
+        
+
+      </td>
+</tr>
+      </table>
+  
+</body>
+</html>

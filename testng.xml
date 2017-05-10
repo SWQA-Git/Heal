@@ -1,0 +1,80 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="HEAL_PATIENT" verbose="1">
+	<listeners>
+		<listener class-name="org.uncommons.reportng.HTMLReporter" />
+		<listener class-name="org.uncommons.reportng.JUnitXMLReporter" />
+		<listener class-name="lib.common.CustomListener" />
+	</listeners>
+
+	<test name="Test" enabled="true">
+		<classes>
+			<class name="test.patient.LoginTest">
+				<methods>
+					<exclude name="testBrowserbackButtonFlow" />
+					<include name="testSecurityCheckRedirectToLoginPage" />
+					<exclude name="testSecurityWithInvalidURL" />
+					<include name="testElementsOfLoginPage" />
+					<include name="testRegisterLinkFlow" />
+					<include name="testLogInFormWithBlankData" />
+					<include name="testValidationOfLoginForm" />
+					<include name="testNormsAndConditionsLink" />
+					<include name="testloginWithValidCredentails" />
+				</methods>
+			</class>
+			<!-- <class name="test.patient.RegisterTest">
+				<methods>
+					<include name="testSecurityCheckRedirectToRegisterPage" />
+					<exclude name="testSecurityWithInvalidURL" />
+					<include name="testElementsOfRegisterPage" />
+					<include name="testRegisterFormWithBlankData" />
+					<exclude name="testBrowserbackButtonFlow" />
+					<include name="testLogInLinkFlow" />
+					<include name="testRegisterWithValidData" />
+					<include name="testUnsupportedZipcodeElements" />
+					<include name="testUnsupportedZipcodeContinue" />
+					<include name="testUnsupportedZipcodeNotifyMe" />
+					<exclude name="testUnsupportedZipcodeRegisterInDiffArea" />
+					<include name="testRegisterWithExistingUserName" />
+					<include name="testPasswordMismatch" />
+					<include name="testConsistentErrorMessageForBlankFiled" />
+					<include name="testInvalidPhoneNumber" />
+					<include name="testValidInvalidEmailAddress" />
+					<include name="testValidInvalidPassword" />
+					<include name="testNormsAndConditionsLink" />
+				</methods>
+			</class>
+			<class name="test.patient.BookVisitTest">
+				<methods>
+					<include name="testElementsOfBookVisitPage" />
+					<include name="testYesEmergencyCase" />
+					<exclude name="testSecurityCheckWithInvalidURL" />
+					<exclude name="testSecurityWithValidURL" />
+				</methods>
+			</class>
+			<class name="test.patient.PaymentMethodsTest">
+				<methods>
+					<include name="testCheckRedirectToPaymentMethods" />
+					<exclude name="testCheckSecurityRedirectToPayments" />
+					<include name="testElementsOfPayment" />
+					<exclude name="testAddPaymentsWith14DigitsCardnumber" />
+					<exclude name="testAddPaymentsWith15DigitsCardnumber" />
+					<include name="testInvalidCardNumber" />
+					<include name="testInvalidExpirationDate" />
+					<include name="testInvalidSecurityCode" />
+					<include name="testExpiryDateWithMMYYFormat" />
+					<include name="testSecurityCodeWith4Digits" />
+					<exclude name="testAddPayments" />
+				</methods>
+			</class>
+			<class name="test.patient.ProfilesTest">
+				<methods>
+					<include name="testElementsofInsuranceSection"/>
+					<include name="testAddInsuranceForExistingPatient"/>
+					<include name="testAddPatients"/>
+				</methods>
+			</class> -->
+		</classes>
+	</test>
+	<!-- <test name="Register-Test" enabled="true"> <classes> </classes> </test> 
+		<test name="BookVisist-Test" enabled="true"> <classes> </classes> </test> -->
+</suite>

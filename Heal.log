@@ -1,0 +1,224 @@
+2017-05-08 20:01:10,448 main INFO  common.TestDriver - Browser=Chrome
+2017-05-08 20:01:10,472 main INFO  common.TestDriver - Env=SauceLab
+2017-05-08 20:01:26,784 main INFO  common.TestDriver - Session ID = 564bffb3268d4f9bac5c7709ab241cfa
+2017-05-08 20:01:26,784 main INFO  patient.LoginTest - Current Session = 564bffb3268d4f9bac5c7709ab241cfa
+2017-05-08 20:01:27,974 main INFO  common.Utilities - Execution Started Method testSecurityCheckRedirectToLoginPage
+2017-05-08 20:01:30,882 main INFO  patient.LoginPage - Loaded URL: https://patient-dev.heal.com/login
+2017-05-08 20:01:31,249 main INFO  common.WebPageVerifier - Verification Successfully.
+Expected Result = https://patient-dev.heal.com/login
+Actual Result = https://patient-dev.heal.com/login
+2017-05-08 20:01:33,806 main INFO  patient.LoginPage - Loaded URL: http://patient-dev.heal.com/login
+2017-05-08 20:01:34,114 main INFO  common.WebPageVerifier - Verification Successfully.
+Expected Result = https://patient-dev.heal.com/login
+Actual Result = https://patient-dev.heal.com/login
+2017-05-08 20:01:34,115 main INFO  common.Utilities - Execution Ended Method testSecurityCheckRedirectToLoginPage
+2017-05-08 20:01:34,117 main INFO  common.CustomListener - testSecurityCheckRedirectToLoginPage--                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+2017-05-08 20:01:34,117 main INFO  common.CustomListener - testSecurityCheckRedirectToLoginPage--                           OOO    KK KK     PPPPP      AA     SSSSSS SSSSSS  
+2017-05-08 20:01:34,117 main INFO  common.CustomListener - testSecurityCheckRedirectToLoginPage--                          OO OO   KKK    == PP PPP    AAAA    SSS    SSS     
+2017-05-08 20:01:34,117 main INFO  common.CustomListener - testSecurityCheckRedirectToLoginPage--                           OOO    KK KK     PPPPP    AA  AA   SSSSSS SSSSSS  
+2017-05-08 20:01:34,117 main INFO  common.CustomListener - testSecurityCheckRedirectToLoginPage--                                            PP      AAAAAAAA     SSS    SSS  
+2017-05-08 20:01:34,117 main INFO  common.CustomListener - testSecurityCheckRedirectToLoginPage--                                            PP     AA      AA SSSSSS SSSSSS  
+2017-05-08 20:01:34,117 main INFO  common.CustomListener - testSecurityCheckRedirectToLoginPage--                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^  
+2017-05-08 20:01:34,118 main INFO  common.TestDriver - Browser: QUIT
+2017-05-08 20:01:34,500 main INFO  common.TestDriver - Browser=Chrome
+2017-05-08 20:01:34,500 main INFO  common.TestDriver - Env=SauceLab
+2017-05-08 20:01:41,110 main INFO  common.TestDriver - Session ID = f2edf9b51e4a43128cd3ef6666a91f89
+2017-05-08 20:01:41,110 main INFO  patient.LoginTest - Current Session = f2edf9b51e4a43128cd3ef6666a91f89
+2017-05-08 20:01:41,926 main INFO  common.Utilities - Execution Started Method testElementsOfLoginPage
+2017-05-08 20:01:44,970 main INFO  common.WebPageVerifier - Verification Sucessfully.
+Expected Result = Heal - Patient Portal
+Actual Result = Heal - Patient Portal
+2017-05-08 20:01:55,675 main INFO  common.WebPageVerifier - Verification Sucessfully.
+Expected Result = Email
+Actual Result = Email
+2017-05-08 20:02:07,035 main INFO  common.WebPageVerifier - Verification Sucessfully.
+Expected Result = Password
+Actual Result = Password
+2017-05-08 20:02:18,402 main INFO  common.WebPageVerifier - Verification Sucessfully.
+Expected Result = Remember Me
+Actual Result = Remember Me
+2017-05-08 20:02:29,762 main INFO  common.WebPageVerifier - Verification Sucessfully.
+Expected Result = Forgot Password
+Actual Result = Forgot Password
+2017-05-08 20:02:41,077 main INFO  common.WebPageVerifier - Verification Sucessfully.
+Expected Result = Log In
+Actual Result = Log In
+2017-05-08 20:02:53,716 main INFO  common.WebPageVerifier - Verification Sucessfully.
+Expected Result = Register
+Actual Result = Register
+2017-05-08 20:03:07,720 main INFO  common.WebPageVerifier - Verification Sucessfully.
+Expected Result = Having trouble? Call Heal 1-844-644-4325 (HEAL) or email support@heal.com.
+Actual Result = Having trouble? Call Heal 1-844-644-4325 (HEAL) or email support@heal.com.
+2017-05-08 20:03:18,655 main INFO  common.WebPageVerifier - Verification Sucessfully.
+Expected Result = Privacy Policy
+Actual Result = Privacy Policy
+2017-05-08 20:03:30,055 main INFO  common.WebPageVerifier - Verification Sucessfully.
+Expected Result = Terms of Service
+Actual Result = Terms of Service
+2017-05-08 20:03:41,694 main INFO  common.WebPageVerifier - Verification Sucessfully.
+Expected Result = Notice of Privacy Practices
+Actual Result = Notice of Privacy Practices
+2017-05-08 20:03:53,125 main INFO  common.WebPageVerifier - Verification Sucessfully.
+Expected Result = Nondiscrimination Notice
+Actual Result = Nondiscrimination Notice
+2017-05-08 20:03:53,763 main INFO  common.Utilities - Execution Ended Method testElementsOfLoginPage
+2017-05-08 20:03:53,765 main INFO  common.CustomListener - testElementsOfLoginPage--                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+2017-05-08 20:03:53,765 main INFO  common.CustomListener - testElementsOfLoginPage--                           OOO    KK KK     PPPPP      AA     SSSSSS SSSSSS  
+2017-05-08 20:03:53,765 main INFO  common.CustomListener - testElementsOfLoginPage--                          OO OO   KKK    == PP PPP    AAAA    SSS    SSS     
+2017-05-08 20:03:53,765 main INFO  common.CustomListener - testElementsOfLoginPage--                           OOO    KK KK     PPPPP    AA  AA   SSSSSS SSSSSS  
+2017-05-08 20:03:53,765 main INFO  common.CustomListener - testElementsOfLoginPage--                                            PP      AAAAAAAA     SSS    SSS  
+2017-05-08 20:03:53,765 main INFO  common.CustomListener - testElementsOfLoginPage--                                            PP     AA      AA SSSSSS SSSSSS  
+2017-05-08 20:03:53,765 main INFO  common.CustomListener - testElementsOfLoginPage--                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^  
+2017-05-08 20:03:53,766 main INFO  common.TestDriver - Browser: QUIT
+2017-05-08 20:03:54,265 main INFO  common.TestDriver - Browser=Chrome
+2017-05-08 20:03:54,265 main INFO  common.TestDriver - Env=SauceLab
+2017-05-08 20:04:00,897 main INFO  common.TestDriver - Session ID = ff973ab5b7ce4ae7b64fb6a4b015cc50
+2017-05-08 20:04:00,897 main INFO  patient.LoginTest - Current Session = ff973ab5b7ce4ae7b64fb6a4b015cc50
+2017-05-08 20:04:02,032 main INFO  common.Utilities - Execution Started Method testRegisterLinkFlow
+2017-05-08 20:04:07,271 main INFO  common.WebPageVerifier - Verification Successfully.
+Expected Result = https://patient-dev.heal.com/register
+Actual Result = https://patient-dev.heal.com/register
+2017-05-08 20:04:07,271 main INFO  common.Utilities - Execution Ended Method testRegisterLinkFlow
+2017-05-08 20:04:07,272 main INFO  common.CustomListener - testRegisterLinkFlow--                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+2017-05-08 20:04:07,273 main INFO  common.CustomListener - testRegisterLinkFlow--                           OOO    KK KK     PPPPP      AA     SSSSSS SSSSSS  
+2017-05-08 20:04:07,273 main INFO  common.CustomListener - testRegisterLinkFlow--                          OO OO   KKK    == PP PPP    AAAA    SSS    SSS     
+2017-05-08 20:04:07,273 main INFO  common.CustomListener - testRegisterLinkFlow--                           OOO    KK KK     PPPPP    AA  AA   SSSSSS SSSSSS  
+2017-05-08 20:04:07,273 main INFO  common.CustomListener - testRegisterLinkFlow--                                            PP      AAAAAAAA     SSS    SSS  
+2017-05-08 20:04:07,273 main INFO  common.CustomListener - testRegisterLinkFlow--                                            PP     AA      AA SSSSSS SSSSSS  
+2017-05-08 20:04:07,273 main INFO  common.CustomListener - testRegisterLinkFlow--                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^  
+2017-05-08 20:04:07,273 main INFO  common.TestDriver - Browser: QUIT
+2017-05-08 20:04:07,718 main INFO  common.TestDriver - Browser=Chrome
+2017-05-08 20:04:07,718 main INFO  common.TestDriver - Env=SauceLab
+2017-05-08 20:04:14,708 main INFO  common.TestDriver - Session ID = 9dc09a3c54b44418a8505dc749ddc5e9
+2017-05-08 20:04:14,708 main INFO  patient.LoginTest - Current Session = 9dc09a3c54b44418a8505dc749ddc5e9
+2017-05-08 20:04:16,350 main INFO  common.Utilities - Execution Started Method testLogInFormWithBlankData
+2017-05-08 20:04:18,880 main INFO  patient.LoginPage - Loaded URL: https://patient-dev.heal.com/login
+2017-05-08 20:04:34,264 main INFO  common.WebPageVerifier - Verification Sucessfully.
+Expected Result = Username Is Required
+Actual Result = Username Is Required
+2017-05-08 20:04:44,905 main INFO  common.WebPageVerifier - Verification Sucessfully.
+Expected Result = Password Is Required
+Actual Result = Password Is Required
+2017-05-08 20:05:01,249 main INFO  common.WebPageVerifier - Verification Sucessfully.
+Expected Result = Password Is Required
+Actual Result = Password Is Required
+2017-05-08 20:05:17,417 main INFO  common.WebPageVerifier - Verification Sucessfully.
+Expected Result = Username Is Required
+Actual Result = Username Is Required
+2017-05-08 20:05:17,418 main INFO  common.Utilities - Execution Ended Method testLogInFormWithBlankData
+2017-05-08 20:05:17,421 main INFO  common.CustomListener - testLogInFormWithBlankData--                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+2017-05-08 20:05:17,421 main INFO  common.CustomListener - testLogInFormWithBlankData--                           OOO    KK KK     PPPPP      AA     SSSSSS SSSSSS  
+2017-05-08 20:05:17,421 main INFO  common.CustomListener - testLogInFormWithBlankData--                          OO OO   KKK    == PP PPP    AAAA    SSS    SSS     
+2017-05-08 20:05:17,421 main INFO  common.CustomListener - testLogInFormWithBlankData--                           OOO    KK KK     PPPPP    AA  AA   SSSSSS SSSSSS  
+2017-05-08 20:05:17,421 main INFO  common.CustomListener - testLogInFormWithBlankData--                                            PP      AAAAAAAA     SSS    SSS  
+2017-05-08 20:05:17,421 main INFO  common.CustomListener - testLogInFormWithBlankData--                                            PP     AA      AA SSSSSS SSSSSS  
+2017-05-08 20:05:17,421 main INFO  common.CustomListener - testLogInFormWithBlankData--                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^  
+2017-05-08 20:05:17,422 main INFO  common.TestDriver - Browser: QUIT
+2017-05-08 20:05:17,891 main INFO  common.TestDriver - Browser=Chrome
+2017-05-08 20:05:17,891 main INFO  common.TestDriver - Env=SauceLab
+2017-05-08 20:05:24,393 main INFO  common.TestDriver - Session ID = 8554694a945c46b483beae718b4c4111
+2017-05-08 20:05:24,393 main INFO  patient.LoginTest - Current Session = 8554694a945c46b483beae718b4c4111
+2017-05-08 20:05:25,571 main INFO  common.Utilities - Execution Started Method testValidationOfLoginForm
+2017-05-08 20:05:45,397 main INFO  common.WebPageVerifier - Verification Sucessfully.
+Expected Result = Your email address and password don’t seem to match. Please try again. If you need help, please call 844-644-4325.
+Actual Result = Your email address and password don’t seem to match. Please try again. If you need help, please call 844-644-4325.
+2017-05-08 20:06:03,400 main INFO  common.WebPageVerifier - Verification Sucessfully.
+Expected Result = Your email address and password don’t seem to match. Please try again. If you need help, please call 844-644-4325.
+Actual Result = Your email address and password don’t seem to match. Please try again. If you need help, please call 844-644-4325.
+2017-05-08 20:06:22,179 main INFO  common.WebPageVerifier - Verification Sucessfully.
+Expected Result = Your email address and password don’t seem to match. Please try again. If you need help, please call 844-644-4325.
+Actual Result = Your email address and password don’t seem to match. Please try again. If you need help, please call 844-644-4325.
+2017-05-08 20:06:22,179 main INFO  common.Utilities - Execution Ended Method testValidationOfLoginForm
+2017-05-08 20:06:22,180 main INFO  common.CustomListener - testValidationOfLoginForm--                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^ 
+2017-05-08 20:06:22,180 main INFO  common.CustomListener - testValidationOfLoginForm--                           OOO    KK KK     PPPPP      AA     SSSSSS SSSSSS  
+2017-05-08 20:06:22,180 main INFO  common.CustomListener - testValidationOfLoginForm--                          OO OO   KKK    == PP PPP    AAAA    SSS    SSS     
+2017-05-08 20:06:22,180 main INFO  common.CustomListener - testValidationOfLoginForm--                           OOO    KK KK     PPPPP    AA  AA   SSSSSS SSSSSS  
+2017-05-08 20:06:22,180 main INFO  common.CustomListener - testValidationOfLoginForm--                                            PP      AAAAAAAA     SSS    SSS  
+2017-05-08 20:06:22,180 main INFO  common.CustomListener - testValidationOfLoginForm--                                            PP     AA      AA SSSSSS SSSSSS  
+2017-05-08 20:06:22,180 main INFO  common.CustomListener - testValidationOfLoginForm--                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^  
+2017-05-08 20:06:22,181 main INFO  common.TestDriver - Browser: QUIT
+2017-05-08 20:06:22,706 main INFO  common.TestDriver - Browser=Chrome
+2017-05-08 20:06:22,707 main INFO  common.TestDriver - Env=SauceLab
+2017-05-08 20:06:30,601 main INFO  common.TestDriver - Session ID = 7563a0d7dc5f438bb754a87df1ab9227
+2017-05-08 20:06:30,601 main INFO  patient.LoginTest - Current Session = 7563a0d7dc5f438bb754a87df1ab9227
+2017-05-08 20:06:31,765 main INFO  common.Utilities - Execution Started Method testNormsAndConditionsLink
+2017-05-08 20:06:34,010 main INFO  patient.LoginPage - Loaded URL: https://patient-dev.heal.com/login
+2017-05-08 20:06:37,879 main INFO  common.WebPageVerifier - Verification Successfully.
+Expected Result = https://heal.com/privacy.php
+Actual Result = https://heal.com/privacy.php
+2017-05-08 20:06:38,152 main INFO  common.WebPageVerifier - Verification Sucessfully.
+Expected Result = Heal – Our Privacy Policy
+Actual Result = Heal – Our Privacy Policy
+2017-05-08 20:06:48,775 main INFO  common.WebPageVerifier - Verification Sucessfully.
+Expected Result = HEAL PRIVACY POLICY
+Actual Result = HEAL PRIVACY POLICY
+2017-05-08 20:06:54,441 main INFO  common.WebPageVerifier - Verification Successfully.
+Expected Result = https://heal.com/terms.php
+Actual Result = https://heal.com/terms.php
+2017-05-08 20:06:54,718 main INFO  common.WebPageVerifier - Verification Sucessfully.
+Expected Result = Heal – Terms and Conditions
+Actual Result = Heal – Terms and Conditions
+2017-05-08 20:07:05,318 main INFO  common.WebPageVerifier - Verification Sucessfully.
+Expected Result = TERMS OF SERVICE FOR HEAL
+Actual Result = TERMS OF SERVICE FOR HEAL
+2017-05-08 20:07:09,916 main INFO  common.WebPageVerifier - Verification Successfully.
+Expected Result = https://heal.com/practices.php
+Actual Result = https://heal.com/practices.php
+2017-05-08 20:07:10,196 main INFO  common.WebPageVerifier - Verification Sucessfully.
+Expected Result = Heal – Notice of Privacy Practices
+Actual Result = Heal – Notice of Privacy Practices
+2017-05-08 20:07:22,011 main INFO  common.WebPageVerifier - Verification Sucessfully.
+Expected Result = HEAL™
+NOTICE OF PRIVACY PRACTICES
+Actual Result = HEAL™
+NOTICE OF PRIVACY PRACTICES
+2017-05-08 20:07:26,644 main INFO  common.WebPageVerifier - Verification Successfully.
+Expected Result = https://heal.com/nondiscrimination.php
+Actual Result = https://heal.com/nondiscrimination.php
+2017-05-08 20:07:26,934 main INFO  common.WebPageVerifier - Verification Sucessfully.
+Expected Result = Heal – Nondiscrimination
+Actual Result = Heal – Nondiscrimination
+2017-05-08 20:07:46,881 main INFO  common.CustomListener - testNormsAndConditionsLink--                     *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*# 
+2017-05-08 20:07:46,883 main INFO  common.CustomListener - testNormsAndConditionsLink--                        FFFFF     AA       II   LL 
+2017-05-08 20:07:46,883 main INFO  common.CustomListener - testNormsAndConditionsLink--                        FF       AAAA      II   LL
+2017-05-08 20:07:46,884 main INFO  common.CustomListener - testNormsAndConditionsLink--                        FFFF    AA  AA     II   LL
+2017-05-08 20:07:46,884 main INFO  common.CustomListener - testNormsAndConditionsLink--                        FF     AAAAAAAA    II   LL
+2017-05-08 20:07:46,884 main INFO  common.CustomListener - testNormsAndConditionsLink--                        FF    AA      AA   II   LLLLLL
+2017-05-08 20:07:46,884 main INFO  common.CustomListener - testNormsAndConditionsLink--                      *#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*#*# 
+2017-05-08 20:07:46,884 main INFO  common.CustomListener - null
+2017-05-08 20:07:46,884 main INFO  common.CustomListener - org.junit.Assert.fail(Assert.java:86)
+2017-05-08 20:07:46,884 main INFO  common.CustomListener - org.junit.Assert.fail(Assert.java:95)
+2017-05-08 20:07:46,884 main INFO  common.CustomListener - lib.common.TestBase.failTest(TestBase.java:51)
+2017-05-08 20:07:46,884 main INFO  common.CustomListener - test.patient.LoginTest.testNormsAndConditionsLink(LoginTest.java:260)
+2017-05-08 20:07:46,884 main INFO  common.CustomListener - sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+2017-05-08 20:07:46,884 main INFO  common.CustomListener - sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+2017-05-08 20:07:46,884 main INFO  common.CustomListener - sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+2017-05-08 20:07:46,885 main INFO  common.CustomListener - java.lang.reflect.Method.invoke(Unknown Source)
+2017-05-08 20:07:46,885 main INFO  common.CustomListener - org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:108)
+2017-05-08 20:07:46,885 main INFO  common.CustomListener - org.testng.internal.Invoker.invokeMethod(Invoker.java:661)
+2017-05-08 20:07:46,885 main INFO  common.CustomListener - org.testng.internal.Invoker.invokeTestMethod(Invoker.java:869)
+2017-05-08 20:07:46,885 main INFO  common.CustomListener - org.testng.internal.Invoker.invokeTestMethods(Invoker.java:1193)
+2017-05-08 20:07:46,885 main INFO  common.CustomListener - org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:126)
+2017-05-08 20:07:46,885 main INFO  common.CustomListener - org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+2017-05-08 20:07:46,885 main INFO  common.CustomListener - org.testng.TestRunner.privateRun(TestRunner.java:744)
+2017-05-08 20:07:46,885 main INFO  common.CustomListener - org.testng.TestRunner.run(TestRunner.java:602)
+2017-05-08 20:07:46,885 main INFO  common.CustomListener - org.testng.SuiteRunner.runTest(SuiteRunner.java:380)
+2017-05-08 20:07:46,885 main INFO  common.CustomListener - org.testng.SuiteRunner.runSequentially(SuiteRunner.java:375)
+2017-05-08 20:07:46,885 main INFO  common.CustomListener - org.testng.SuiteRunner.privateRun(SuiteRunner.java:340)
+2017-05-08 20:07:46,885 main INFO  common.CustomListener - org.testng.SuiteRunner.run(SuiteRunner.java:289)
+2017-05-08 20:07:46,885 main INFO  common.CustomListener - org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+2017-05-08 20:07:46,885 main INFO  common.CustomListener - org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+2017-05-08 20:07:46,886 main INFO  common.CustomListener - org.testng.TestNG.runSuitesSequentially(TestNG.java:1301)
+2017-05-08 20:07:46,886 main INFO  common.CustomListener - org.testng.TestNG.runSuitesLocally(TestNG.java:1226)
+2017-05-08 20:07:46,886 main INFO  common.CustomListener - org.testng.TestNG.runSuites(TestNG.java:1144)
+2017-05-08 20:07:46,886 main INFO  common.CustomListener - org.testng.TestNG.run(TestNG.java:1115)
+2017-05-08 20:07:46,886 main INFO  common.CustomListener - org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:132)
+2017-05-08 20:07:46,886 main INFO  common.CustomListener - org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:230)
+2017-05-08 20:07:46,886 main INFO  common.CustomListener - org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
+2017-05-08 20:07:46,887 main INFO  common.TestDriver - Browser: QUIT
+2017-05-08 20:07:47,034 main INFO  common.TestDriver - Browser=Chrome
+2017-05-08 20:07:47,034 main INFO  common.TestDriver - Env=SauceLab
+2017-05-08 20:07:47,055 main INFO  common.CustomListener - testloginWithValidCredentails--                      +++++++++++++++++++ Skipped +++++++++++++++ 
+2017-05-08 20:07:47,055 main INFO  common.CustomListener - testloginWithValidCredentails--                      +++++++++++++++++++ Skipped +++++++++++++++ 
+2017-05-08 20:07:47,055 main INFO  common.CustomListener - testloginWithValidCredentails--                      +++++++++++++++++++ Skipped +++++++++++++++ 
+2017-05-08 20:07:47,055 main INFO  common.CustomListener - testloginWithValidCredentails--                      +++++++++++++++++++ Skipped +++++++++++++++ 
